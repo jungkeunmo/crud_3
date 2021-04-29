@@ -1,0 +1,45 @@
+.createBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.createBox h2 {
+  margin: 40px 0px;
+  font-size: 30px;
+  font-weight: 700;
+  border-bottom: 4px solid skyblue;
+  padding-bottom: 10px;
+}
+
+.createBox form {
+  width: 1125px;
+}
+
+.createBox form textarea {
+  resize: none;
+  width: 1125px;
+  height: 300px;
+  display: block;
+}
+
+.createBox form button {
+  width: 145px;
+  height: 25px;
+  border-radius: 15px;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  float: right;
+
+  margin-top: 10px;
+  transition: 0.4s;
+}
+
+.createBox form button:hover {
+  color: #fff;
+  background-color: skyblue;
+  border: none;
+}

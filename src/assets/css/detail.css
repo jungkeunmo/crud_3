@@ -1,0 +1,45 @@
+.detailBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailBox h2 {
+  margin: 40px 0px;
+  font-size: 30px;
+  font-weight: 700;
+  border-bottom: 4px solid skyblue;
+  padding-bottom: 10px;
+}
+
+.detailBox form {
+  width: 1125px;
+}
+
+.detailBox form textarea {
+  resize: none;
+  width: 1125px;
+  height: 300px;
+  display: block;
+}
+
+.detailBox form button {
+  width: 140px;
+  height: 25px;
+  border-radius: 15px;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  float: right;
+
+  margin-top: 10px;
+  transition: 0.4s;
+}
+
+.detailBox form button:hover {
+  color: #fff;
+  background-color: aquamarine;
+  border: none;
+}

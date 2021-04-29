@@ -1,0 +1,11 @@
+extends ../layouts/main.pug
+
+block content 
+    div.top
+        form(action="/create", method="get")
+            button(type="submit") 추가하기
+    div.main
+        div.main__desc DESC 
+        div.main__footer
+            form(action="/detail", method="get")
+                button(type="submit") 상세보기         

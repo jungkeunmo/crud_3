@@ -1,0 +1,8 @@
+@import "./reset.css";
+@import "./detail.css";
+@import "./create.css";
+@import "./home.css";
+
+* {
+  box-sizing: border-box;
+}
