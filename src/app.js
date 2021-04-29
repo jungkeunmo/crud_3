@@ -4,6 +4,7 @@ import path from "path";
 import helmet from "helmet";
 import bodyParser from "body-parser";
 import globalRouter from "./routers/globalRouter";
+import connect from "../db";
 
 const PORT = 7000;
 const app = express();
@@ -14,6 +15,7 @@ app.use(helmet());
 app.use(morgan(`dev`));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+connect();
 
 app.use("/", globalRouter);
 
