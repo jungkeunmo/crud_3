@@ -20,5 +20,5 @@ connect();
 app.use("/", globalRouter);
 
 app.listen(PORT, () => {
-    console.log(`${PORT} SEVVER START🥕`)
+    console.log(`${PORT} SERVER START🥕`)
 });
