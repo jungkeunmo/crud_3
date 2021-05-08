@@ -38,10 +38,16 @@
 
 .main__desc {
   width: 100%;
-  height: 500px;
+  padding: 40px 10px;
   border: 1px solid #999;
   border-radius: 5px;
   box-shadow: 4px 4px 3px 3px #999;
+  transition: 0.4s;
+}
+
+.main__desc:hover{
+  background-color: skyblue;
+  color: #fff;
 }
 
 .main__footer {
